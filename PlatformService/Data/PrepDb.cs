@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using PlateformService.Models;
+using PlatformService.Models;
 
-namespace PlateformService.Data
+namespace PlatformService.Data
     {
     public static class PrepDb
     {
