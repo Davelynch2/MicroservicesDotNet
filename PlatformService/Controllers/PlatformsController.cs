@@ -51,7 +51,5 @@ namespace PlateformService.Controllers
 
             return CreatedAtRoute(nameof(GetPlatformById), new { Id = platformReadDto.Id}, platformReadDto); 
         }
-
-
     }
 }
