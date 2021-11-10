@@ -9,7 +9,6 @@ namespace CommandsService.Controllers
     {
         public PlatformsController()
         {
-            
         }
         
         [HttpPost]
@@ -19,6 +18,5 @@ namespace CommandsService.Controllers
 
             return Ok("Inbound test ok from Platforms Controller");
         }
-        
     }
 }
