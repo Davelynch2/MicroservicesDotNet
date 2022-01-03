@@ -28,8 +28,10 @@ namespace CommandsService.Data
                 throw new ArgumentNullException(nameof(plat));
             }
             _context.Platforms.Add(plat);
-            //SaveChanges();
         }
+
+        public bool ExternalPlatformExist(int externalPlatformId) => _context.Platforms.Any(p => p.ExternalID == externalPlatformId);
+ 
         public IEnumerable<Platform> GetAllPlatforms()
         {
             return _context.Platforms.ToList();
